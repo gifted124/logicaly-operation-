@@ -836,26 +836,92 @@ img{
 .all_text{
   display: none;
 }
+.about{
+  display: none;
+}
 @media screen and (max-width:379px) {
-  @font-face {
-      font-family: top;
-      src: url(./fonts/font.woff);
-  }
   body{
-      /* background-color: #000000; */
-      padding: 10px;
-      width: 100%;
+    height: 100%;
   }
+  nav{
+    padding-bottom: -240px;
+  }
+  .about{
+    display: block;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    background-color: black;
+    width: 100%;
+    gap: 1px;
+}
+.about1{
+  height: 100px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue{
+  background-color: blue;
+  mar
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.yelow{
+  background-color: yellow;
+}
+.pink{
+  background-color: black;
+  img{
+    width: 30px;
+    gap: 40px;
+  }
+}
+.terms{
+  display: grid;
+  padding-left: 40px;
+}
+
 .homepage{
     display: none;
   }
   .grid{
     display: none;
   }
+  .data-page{
+    display: none;
+  }
 .col-2{
   grid-template-columns: auto;
 }
 .secun{
-  grid-template-columns: auto;
+  display: none;
 }
+.alwa{
+  display: none;
+}
+.new{
+  display: none;
+}
+.pyt{
+  display: none;
+}
+.grid_6{
+  display: none;
+}
+.footer{
+  display: none;
+}
+.media{
+  display: none;
+}
+
 }
